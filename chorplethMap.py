@@ -97,7 +97,7 @@ data = pd.read_csv(data_path)
 data["City"] = data["City"].str.title()
 # Debug: Check data structure
 print(data.head())
-
+print(data)
 # Load GeoJSON file for cities
 geojson_path = "CityLimits.geojson"  # Replace with your GeoJSON file path
 with open(geojson_path, "r") as file:
