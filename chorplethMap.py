@@ -83,7 +83,7 @@ fig.update_layout(
             ticksuffix="",  # Optional: Add suffix if needed
         )
     )
-logger.info('Info message')
+print "This won't appear on file"
 # Display map in Streamlit
 st.plotly_chart(fig, use_container_width=True)
 ############ City #########
